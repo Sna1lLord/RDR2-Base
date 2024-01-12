@@ -32,7 +32,7 @@ public:
     template <typename T>
     void Set(size_t index, T&& value) {
         static_assert(sizeof(T) <= sizeof(uint64_t));
-        *reinterpret_cast<std::remove_cv_t<remove_reference_t<T>>*>(reinterpret_cast<uint64_t*>(arguments) + index) = std::forward<T>(value);
+        *reinterpret_cast<std::remove_cv_t<std::remove_reference_t<T>>*>(reinterpret_cast<uint64_t*>(arguments) + index) = std::forward<T>(value);
     }
 
     template <typename T>
