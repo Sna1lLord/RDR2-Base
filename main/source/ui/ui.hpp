@@ -28,7 +28,7 @@ public:
     directX12_t directx;
     bool initialized;
 	bool opened;
-	std::vector<const char*> submenuList = {ICON_FA_USER, ICON_FA_GLOBE, ICON_FA_CAR, ICON_FA_MOON};
+	std::vector<const char*> submenuList = {ICON_FA_USER, ICON_FA_MOON, ICON_FA_CAR, ICON_FA_LOCATION_ARROW};
 	int currentSubmenu;
 	ImFont* optionFont;
     ImFont* iconFont;
