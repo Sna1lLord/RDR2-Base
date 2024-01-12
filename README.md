@@ -5,7 +5,7 @@
 - It uses a bunch of libraries created by me (some of which are available for download on my github repositories)
 - For example, it has a very fast signature scanner
 - Please leave a ⭐ if you found it interesting!
-- At 30 stars I am releasing a base for cs2, and after that one of GTAV
+- At 30 stars I am releasing a base for cs2, and after that one a base for GTAV
 
 # Usage
 - Usage of the base requires some steps
