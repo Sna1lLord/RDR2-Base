@@ -12,7 +12,7 @@
 - It ueses CMake, so you'll have to install that if you haven't already
 - https://cmake.org/download/
 - I recommend using visual studio code for the project since that is what I created it in
-- Installation ***(important)***:
+- Installation from CMD ***(important)***:
 1. git clone https://github.com/Sna1lLord/RDR2-Base.git --recurse-submodules
 - Now you should be able to open the folder installed with visual studio code and run "CMake: Configure" followed by "CMake: Build"
 
