@@ -25,3 +25,4 @@
 - For several reasons, it's not a good idea to try using this in online mode, although you could
 - I do not know the detection status of the cheat, neither have I used any time to look into it
 - The UI was whipped up very fast and I did not spend much time on it
+- This is **NOT** a complete cheat, and only a base which you can build your *own* cheat on
