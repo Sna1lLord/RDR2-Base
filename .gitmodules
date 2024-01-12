@@ -3,4 +3,4 @@
 	url = https://github.com/TsudaKageyu/minhook.git
 [submodule "vendor/imgui"]
 	path = vendor/imgui
-	url = https://github.com/ocornut/imgui.git
+	url = https://github.com/Sna1lLord/imgui.git
