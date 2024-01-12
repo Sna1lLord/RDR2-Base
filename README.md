@@ -14,3 +14,13 @@
 - I recommend using visual studio code for the project since that is what I created it in
 - Installation ***(important)***:
 1. git clone https://github.com/Sna1lLord/RDR2-Base.git --recurse-submodules
+- Now you should be able to open the folder installed with visual studio code and run "CMake: Configure" followed by "CMake: Build"
+
+# Issues
+- Be sure to contact me if you encounter any issues (which you probably will)
+- Discord username: *sna1llord*
+
+# Disclaimer
+- I do **NOT** advice using this cheat in the online mode of Red Dead Redemption 2
+- For several reasons, it's not a good idea to try using this in online mode, although you could
+- I do not know the detection status of the cheat, neither have I used any time to look into it
