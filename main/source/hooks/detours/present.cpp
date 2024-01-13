@@ -33,7 +33,7 @@ HRESULT __stdcall Hooks::Present(IDXGISwapChain3* swapChain, UINT syncInterval, 
 			Ui::Instance()->directx.m_frame_context = new frameContext_t[Ui::Instance()->directx.m_buffers_counts];
 
 			IDXGISwapChain* swapchain = *Signatures::Instance()->definitions.swapchain;
-			Ui::Instance()->directx.m_command_queue = *(ID3D12CommandQueue**)((uintptr_t)swapchain + 0x118);
+			Ui::Instance()->directx.m_command_queue = *Signatures::Instance()->definitions.commandQueue;
 
 			D3D12_DESCRIPTOR_HEAP_DESC DescriptorImGuiRender = {};
 			DescriptorImGuiRender.Type = D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV;

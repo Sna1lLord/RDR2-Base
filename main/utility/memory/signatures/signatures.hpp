@@ -10,6 +10,7 @@ struct SignatureDefinitions_t {
     uintptr_t getPlayerPed;
 
     IDXGISwapChain** swapchain;
+    ID3D12CommandQueue** commandQueue;
 };
 
 class Module {

@@ -121,6 +121,7 @@ void Signatures::Initialize() {
     definitions.getPlayerPed = Scan(xorstr_("40 53 48 83 EC 20 33 DB 81 F9")).Get().Cast<uintptr_t>();
 
     definitions.swapchain = Scan(xorstr_("45 8B C7 8B 53 08 48 8B 01 FF 50 40")).Get().Sub(0x7).Rip().Cast<IDXGISwapChain**>();
+    definitions.commandQueue = Scan(xorstr_("49 8B F8 85 F6")).Get().Sub(0x65).Rip().Cast<ID3D12CommandQueue**>();
 
     auto timerEnd = std::chrono::system_clock::now();
 
