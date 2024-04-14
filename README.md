@@ -9,7 +9,7 @@
 
 # Usage
 - Usage of the base requires some steps
-- It ueses CMake, so you'll have to install that if you haven't already
+- It uses CMake, so you'll have to install that if you haven't already
 - https://cmake.org/download/
 - I recommend using visual studio code for the project since that is what I created it in
 - Installation from CMD ***(important)***:
